@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.design-tools {
+    margin-top: 80px;
+    margin-left: 16%;
+    margin-right: 16%;
+    background: #F2F4F7;
+}
+
+.design-tools-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.design-tools-header h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    color: #1D2939;
+}
+
+.design-tools-header h4 a {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 8px 12px;
+    text-align: center;
+    color: #1D2939;
+    background: #FFFFFF;
+    border: 1px solid #E4E7EC;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.design-tools-content {
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+.design-tools-post {
+    display: flex;
+    justify-content: space-between;
+}
+
+.design-tools-date-title-desc {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.design-tools-date-title-desc p.date {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #667085;
+}
+
+.design-tools-date-title-desc h2.title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+    color: #1D2939;
+    cursor: pointer;
+}
+
+.design-tools-date-title-desc p.desc {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #475467;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.cover {
+    margin-right: 20px;
+    margin-top: 24px;
+}
+
+.cover img {
+    width: 300px;
+    height: 210px;
+    border-radius: 10px;
+}
+
+.button-design-tools {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 50%;
+}
+
+.button {
+    border: 1px solid #E4E7EC;
+    border-radius: 8px;
+    background-color: #1D2939;
+}
+
+.button a {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+}

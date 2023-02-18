@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.recomended-design {
+    margin-top: 80px;
+    margin-left: 16%;
+    margin-right: 16%;
+    background: #F2F4F7;
+}
+
+.recomended-design-header h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    color: #1D2939;
+}
+
+.recomended-design-content {
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+.recomended-design-post {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.recomended-design-date-title-desc {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.recomended-design-date-title-desc p.date {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #667085;
+}
+
+.recomended-design-date-title-desc h2.title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+    color: #1D2939;
+}
+
+.recomended-design-date-title-desc p.desc {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #475467;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.cover {
+    margin-right: 20px;
+    margin-top: 24px;
+}
+
+.cover img {
+    width: 300px;
+    height: 210px;   
+    border-radius: 10px;
+}

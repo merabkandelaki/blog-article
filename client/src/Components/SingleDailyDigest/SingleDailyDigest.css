@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.individual-daily-digest {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.individual-daily-digest h1.title {
+    margin-top: 2%;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    background: linear-gradient(97.1deg, #C41740 4.8%, #EA9C28 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.individual-daily-digest p.date {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.individual-daily-digest p.desc {
+    width: 800px;
+    margin-top: 50px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.image img {
+    margin-top: 80px;
+    width: 950px;
+    height: 550px;   
+    border-radius: 10px;
+}
+
+
+
